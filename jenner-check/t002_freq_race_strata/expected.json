@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-14T15:07:00Z",
+  "_captured_run_id": "r_36f683e5bd864d7f955a5c0a8b62287c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Wrote lead_complete (10 rows, 11 columns).",
+    "Wrote lead_complete (10 rows, 12 columns).",
+    "Option TITLE changed to Lead Categories Distribution by Race.",
+    "PROC FREQ statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

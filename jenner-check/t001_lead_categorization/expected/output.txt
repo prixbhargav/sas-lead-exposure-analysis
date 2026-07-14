@@ -1,0 +1,9 @@
+                                                   The FREQ Procedure
+
+Lead_Category    Frequency
+---------------------------
+0-3.4                    2
+10-19                    2
+20-44                    2
+3.5-9                    3
+>=45                     1

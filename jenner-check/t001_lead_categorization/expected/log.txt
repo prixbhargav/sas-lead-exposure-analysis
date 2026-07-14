@@ -1,0 +1,66 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T061458Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA lead2015
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote lead2015 (7 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA lead2016
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote lead2016 (6 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=lead2015
+
+NOTE: 1 duplicate observations were deleted.
+NOTE: Read 7 rows from lead2015.
+NOTE: Wrote lead2015c (6 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA lead2015c1
+
+
+NOTE: Read 6 rows from lead2015c.
+NOTE: Wrote lead2015c1 (6 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=lead2016
+
+NOTE: 1 duplicate observations were deleted.
+NOTE: Read 6 rows from lead2016.
+NOTE: Wrote lead2016c (5 rows, 5 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA lead2016c1
+
+
+NOTE: Read 5 rows from lead2016c.
+NOTE: Wrote lead2016c1 (5 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA lead_all
+
+
+NOTE: Read 6 rows from lead2015c1.
+NOTE: Read 11 rows from lead2016c1.
+NOTE: Wrote lead_all (11 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=lead_all
+
+NOTE: Read 11 rows from lead_all.
+NOTE: Wrote lead_complete (11 rows, 6 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_lead_category.spec.json
+NOTE: PROC FREQ statement used.

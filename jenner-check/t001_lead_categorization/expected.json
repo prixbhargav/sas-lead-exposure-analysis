@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-14T15:05:00Z",
+  "_captured_run_id": "r_fda9a5cd2fce47468b7c11db2d59b51a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "1 duplicate observations were deleted.",
+    "Wrote lead_all (11 rows, 6 columns).",
+    "Wrote lead_complete (11 rows, 6 columns).",
+    "PROC FREQ statement used."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
