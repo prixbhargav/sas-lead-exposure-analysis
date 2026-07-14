@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_freq_race_strata",
+  "source_file": "02_descriptive_analysis_and_visualization.sas",
+  "source_blob_sha": "f1f4a4e47bf70bcc729c8307e79e651f2a303313",
+  "source_commit": "f079d9131040809d687f9da696348a82ae292ebb",
+  "notes": "The harmonised lead_complete cohort (read from a private ODH Study library) is replaced by a small inline dataset of the same column shape, including the seven race indicator columns. Their race-flattening DATA step (the raceX='1' if/else ladder building Race) and the stratified PROC FREQ cross-tabs (Lead_Category by sex, ethnicity, and Race) run exactly as written upstream. PROC SGPLOT bar charts, which emit image artifacts, are omitted; the frequency logic they visualise is retained."
+}
